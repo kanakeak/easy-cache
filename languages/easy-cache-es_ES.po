@@ -2,8 +2,8 @@
 # This file is distributed under the same license as the Editorial Access Manager package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Simple Cache\n"
-"Report-Msgid-Bugs-To: https://github.com/tlovett1/custom-contact-forms/"
+"Project-Id-Version: Easy WP Cache\n"
+"Report-Msgid-Bugs-To: https://github.com/kanakeak/easy-cache/"
 "issues\n"
 "POT-Creation-Date: 2017-05-19 19:47-0500\n"
 "PO-Revision-Date: 2017-05-19 20:57-0500\n"
@@ -34,23 +34,23 @@ msgid "wp-content/advanced-cache.php was edited or deleted."
 msgstr "wp-content/advanced-cache.php fue editado o borrado."
 
 #: inc/class-sc-advanced-cache.php:169
-msgid "Simple Cache is not able to utilize page caching."
-msgstr "Simple Cache no puede utilizar el almacenamiento en caché de página."
+msgid "easy Cache is not able to utilize page caching."
+msgstr "easy Cache no puede utilizar el almacenamiento en caché de página."
 
 #: inc/class-sc-advanced-cache.php:171 inc/class-sc-object-cache.php:44
 msgid "Fix"
 msgstr "Arreglar"
 
 #: inc/class-sc-cron.php:41
-msgid "Simple Cache Purge Interval"
-msgstr "Intervalo de purga de Simple Cache"
+msgid "easy Cache Purge Interval"
+msgstr "Intervalo de purga de easy Cache"
 
 #: inc/class-sc-object-cache.php:42
 msgid ""
-"wp-content/object-cache.php was edited or deleted. Simple Cache is not able "
+"wp-content/object-cache.php was edited or deleted. easy Cache is not able "
 "to utilize object caching."
 msgstr ""
-"wp-content/object-cache.php fue editado o borrado. Simple Cache no puede "
+"wp-content/object-cache.php fue editado o borrado. easy Cache no puede "
 "utilizar el almacenamiento en caché del objeto."
 
 #: inc/class-sc-settings.php:43 inc/class-sc-settings.php:403
@@ -58,8 +58,8 @@ msgid "Purge Cache"
 msgstr "Purgar Caché"
 
 #: inc/class-sc-settings.php:69
-msgid "Simple Cache won't work until you turn it on."
-msgstr "Simple Cache no funcionará hasta que lo enciendas."
+msgid "easy Cache won't work until you turn it on."
+msgstr "easy Cache no funcionará hasta que lo enciendas."
 
 #: inc/class-sc-settings.php:70
 msgid "Turn On Caching"
@@ -67,12 +67,12 @@ msgstr "Activar Caché"
 
 #: inc/class-sc-settings.php:94
 msgid ""
-"Simple Cache can't create or modify needed files on your system. "
-"Specifically, Simple Cache needs to write to wp-config.php and /wp-content "
+"easy Cache can't create or modify needed files on your system. "
+"Specifically, easy Cache needs to write to wp-config.php and /wp-content "
 "using PHP's fopen() function. Contact your host."
 msgstr ""
-"Simple Cache no puede crear ni modificar los archivos necesarios en su "
-"sistema. Específicamente, Simple Cache necesita escribir en wp-config.php y /"
+"easy Cache no puede crear ni modificar los archivos necesarios en su "
+"sistema. Específicamente, easy Cache necesita escribir en wp-config.php y /"
 "wp-content usando la función fopen() de PHP. Ponte en contacto con su host."
 
 #: inc/class-sc-settings.php:95
@@ -80,16 +80,16 @@ msgid "Try Again"
 msgstr "Intenta de nuevo"
 
 #: inc/class-sc-settings.php:132
-msgid "Simple Cache"
-msgstr "Simple Cache"
+msgid "easy Cache"
+msgstr "easy Cache"
 
 #: inc/class-sc-settings.php:166
 msgid "Cheatin, eh?"
 msgstr "¿Engañando, eh?"
 
 #: inc/class-sc-settings.php:246
-msgid "Simple Cache Settings"
-msgstr "Ajustes de Simple Cache"
+msgid "easy Cache Settings"
+msgstr "Ajustes de easy Cache"
 
 #: inc/class-sc-settings.php:254
 msgid "Enable Advanced Mode"
@@ -237,7 +237,7 @@ msgstr ""
 msgid "Save Changes"
 msgstr "Guardar Cambios"
 
-#: simple-cache.php:55
+#: easy-cache.php:55
 #, php-format
 msgid "<a href=\"%s\">Settings</a>"
 msgstr "<a href=\"%s\">Ajustes</a>"
