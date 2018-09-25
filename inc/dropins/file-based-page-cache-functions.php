@@ -1,6 +1,7 @@
 <?php
 /**
  * Holds functions used by file based cache
+ *
  * @package  easy-cache
  */
 
