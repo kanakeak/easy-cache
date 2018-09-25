@@ -1,4 +1,3 @@
-
 <?php
 /**
  * Test file based page cache
