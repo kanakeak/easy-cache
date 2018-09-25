@@ -34,11 +34,11 @@ WE_Cron::factory();
  *
  * @since 1.0
  */
-function WE_load_textdomain() {
+function we_load_textdomain() {
 
 	load_plugin_textdomain( 'easy-cache', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
-add_action( 'plugins_loaded', 'WE_load_textdomain' );
+add_action( 'plugins_loaded', 'we_load_textdomain' );
 
 
 /**
@@ -49,25 +49,25 @@ add_action( 'plugins_loaded', 'WE_load_textdomain' );
  * @since  1.0
  * @return array
  */
-function WE_filter_plugin_action_links( $plugin_actions, $plugin_file ) {
+function we_filter_plugin_action_links( $plugin_actions, $plugin_file ) {
 
 	$new_actions = array();
 
 	if ( basename( dirname( __FILE__ ) ) . '/easy-cache.php' === $plugin_file ) {
 		/* translators: Param 1 is link to settings page. */
-		$new_actions['WE_settings'] = sprintf( __( '<a href="%s">Settings</a>', 'easy-cache' ), esc_url( admin_url( 'options-general.php?page=easy-cache' ) ) );
+		$new_actions['we_settings'] = sprintf( __( '<a href="%s">Settings</a>', 'easy-cache' ), esc_url( admin_url( 'options-general.php?page=easy-cache' ) ) );
 	}
 
 	return array_merge( $new_actions, $plugin_actions );
 }
-add_filter( 'plugin_action_links', 'WE_filter_plugin_action_links', 10, 2 );
+add_filter( 'plugin_action_links', 'we_filter_plugin_action_links', 10, 2 );
 
 /**
  * Clean up necessary files
  *
  * @since 1.0
  */
-function WE_clean_up() {
+function we_clean_up() {
 
 	WP_Filesystem();
 
@@ -76,6 +76,6 @@ function WE_clean_up() {
 	WE_Object_Cache::factory()->clean_up();
 	WE_Config::factory()->clean_up();
 }
-register_deactivation_hook( __FILE__, 'WE_clean_up' );
+register_deactivation_hook( __FILE__, 'we_clean_up' );
 
 
