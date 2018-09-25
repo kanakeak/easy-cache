@@ -378,9 +378,7 @@ class WE_Settings {
 							</tr>
 							<tr>
 								<th class="in-memory-cache
-								<?php
-								if ( ! empty( $config['enable_in_memory_object_caching'] ) ) :
-								?>
+								<?php if ( ! empty( $config['enable_in_memory_object_caching'] ) ) :?>
 								show<?php endif; ?>" scope="row"><label for="we_in_memory_cache"><?php _e( 'In Memory Cache', 'easy-cache' ); ?></label></th>
 								<td class="in-memory-cache <?php if ( ! empty( $config['enable_in_memory_object_caching'] ) ) : ?>show<?php endif; ?>">
 									<select name="we_easy_cache[in_memory_cache]" id="we_in_memory_cache">
